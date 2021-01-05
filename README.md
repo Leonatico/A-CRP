@@ -8,8 +8,8 @@ Include criada para ajudar na criacao de GM's e sistemas
 `Global - Limpa o chat de todos caso colocado em TRUE`\
 `Quantia - A quantidade de linhas limpas no chat`\
 *Exemplo:*\
-``public OnPlayerConnect(playerid)\
-{\
-    ClearChat(playerid);\
-	return 1;\
-}``
+`public OnPlayerConnect(playerid)`\
+`{`\
+	`ClearChat(playerid);`\
+	`return 1;`\
+`}`
