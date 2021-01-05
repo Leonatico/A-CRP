@@ -10,6 +10,6 @@ Include criada para ajudar na criacao de GM's e sistemas
 *Exemplo:*\
 `public OnPlayerConnect(playerid)`\
 `{`\
-	`ClearChat(playerid);`\
-	`return 1;`\
+`	ClearChat(playerid);`\
+`	return 1;`\
 `}`
