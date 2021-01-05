@@ -27,3 +27,36 @@ O que faz: Deixa o valor colocar com pontuacao (1000 ira virar 1.000)
 FormatarGrana(100000, true);
 // Resultado vira uma string assim: "$100.000"
 ```
+
+# GetVehicleName(vehicleid)
+O que faz: Pega o nome do veiculo
+*Parametros:*\
+`vehicleid - ID do veiculo (400 a 611)`\
+*Exemplo:*
+```
+new String[128];
+format(String, 128, "Nome do veiculo: %s", GetVehicleName(451));
+// Resultado vira assim: "Nome do veiculo: Turismo"
+```
+
+# MensagemP(const Mensagem[], Float:X, Float:Y, Float:Z, Cor, Float:Raio)
+O que faz: Manda mensagem em area numa coordenada
+*Parametros:*\
+`Mensagem - String com a mensagem`\
+`X, Y, Z - Coordenadas da mensagem em area`\
+`Cor - Cor da mensagem`\
+`Raio - Raio da mensagem`\
+*Exemplo:*
+```
+MensagemP("Ola pessoas", 0.0000, 0.0000, 0.0000, 0xFFFFFFAA, 5.0);
+```
+
+
+# GetPlayerSpeedKM(playerid)
+O que faz: Pega a velocidade em KM 
+*Parametros:*\
+`playerid - ID do player que vai medir a velocidade`\
+*Exemplo:*
+```
+new Velocidade = floatround(GetPlayerSpeedKM(playerid));
+```
