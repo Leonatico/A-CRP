@@ -51,7 +51,6 @@ O que faz: Manda mensagem em area numa coordenada
 MensagemP("Ola pessoas", 0.0000, 0.0000, 0.0000, 0xFFFFFFAA, 5.0);
 ```
 
-
 # GetPlayerSpeedKM(playerid)
 O que faz: Pega a velocidade em KM 
 *Parametros:*\
@@ -59,4 +58,13 @@ O que faz: Pega a velocidade em KM
 *Exemplo:*
 ```
 new Velocidade = floatround(GetPlayerSpeedKM(playerid));
+```
+
+# GetPlayerSpeedMPH(playerid)
+O que faz: Pega a velocidade em MPH
+*Parametros:*\
+`playerid - ID do player que vai medir a velocidade`\
+*Exemplo:*
+```
+new Velocidade = floatround(GetPlayerSpeedMPH(playerid));
 ```
