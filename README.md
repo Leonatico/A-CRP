@@ -68,3 +68,35 @@ O que faz: Pega a velocidade em MPH
 ```
 new Velocidade = floatround(GetPlayerSpeedMPH(playerid));
 ```
+
+# PlayerName(playerid)
+O que faz: Pega o Nick do player
+*Parametros:*\
+`playerid - ID do player que vai ser pego o nick`\
+*Exemplo:*
+```
+format(String, 128, "Nome do player: %s", PlayerName(playerid));
+// Resultado fica assim: "Nome do player: Leonatico"
+```
+
+# KickMessage(playerid, Cor, const text[])
+O que faz: Da kick no player e manda mensagem antes do kick
+*Parametros:*\
+`playerid - ID do player que vai ser kickado e enviado a mensagem`\
+`Cor - Cor da mensagem`\
+`text - Conteudo da mensagem`\
+*Exemplo:*
+```
+KickMessage(playerid, 0xFFFFFFAA, "Voce acaba de ser Kickado");
+```
+
+# BanMessage(playerid, Cor, const text[])
+O que faz: Da ban no player e manda mensagem antes do ban
+*Parametros:*\
+`playerid - ID do player que vai ser banido e enviado a mensagem`\
+`Cor - Cor da mensagem`\
+`text - Conteudo da mensagem`\
+*Exemplo:*
+```
+KickMessage(playerid, 0xFFFFFFAA, "Voce acaba de ser BANIDO");
+```
