@@ -153,3 +153,5 @@ O que faz: Puxa o IP de um player
 format(String, 128, "IP: %s", PlayerIp(playerid));
 // Resultado fica assim: "IP: 127.0.0.1" (IP local como desmontracao)
 ```
+
+Atualizações em BREVE
