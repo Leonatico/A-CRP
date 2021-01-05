@@ -1,5 +1,7 @@
 # A-CRP
 
+Include criada para ajudar na criacao de GM's e sistemas
+
 # ClearChat(playerid, bool:Global = false, Quantia = 40)
 *Parametros:*
 `playerid - Limpa o Chat do player escolhido`
